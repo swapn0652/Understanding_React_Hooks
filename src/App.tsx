@@ -1,7 +1,8 @@
 // import ThemedBox from "./components/useContextHook/components/ThemedBox"
 // import ThemeToggler from "./components/useContextHook/components/ThemeToggler"
 // import { Counter } from "./components/useStateHook/components/Counter";
-import { Timer } from "./components/useEffectHook/components/Timer";
+// import { Timer } from "./components/useEffectHook/components/Timer";
+import SignupForm from "./components/useReducerHook/components/SignupForm";
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
       {/* <ThemedBox/>
       <ThemeToggler/> */}
       {/* <Counter/> */}
-      <Timer/>
+      {/* <Timer/> */}
+      <SignupForm/>
     </>
   )
 }
