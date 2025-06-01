@@ -4,7 +4,9 @@
 // import { Timer } from "./components/useEffectHook/components/Timer";
 // import SignupForm from "./components/useReducerHook/components/SignupForm";
 // import ProductDashboard from "./components/useCallbackHook/components/ProductDashboard";
-import { PrimeChecker } from "./components/useMemoHook/components/PrimeChecker";
+// import { PrimeChecker } from "./components/useMemoHook/components/PrimeChecker";
+import UserDashboard from "./components/ReactMemoExample/components/UserDashboard"
+
 
 function App() {
 
@@ -16,7 +18,8 @@ function App() {
       {/* <Timer/> */}
       {/* <SignupForm/> */}
       {/* <ProductDashboard/> */}
-      <PrimeChecker/>
+      {/* <PrimeChecker/> */}
+      <UserDashboard/>
     </>
   )
 }
