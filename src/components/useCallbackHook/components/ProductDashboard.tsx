@@ -21,7 +21,7 @@ const ProductDashboard = () => {
         const start = performance.now();
         const filtered: IProduct[] = [];
         for(let i = 0; i < dummyProducts.length; i++) {
-            for(let j = 0; j < 100``; j++) {
+            for(let j = 0; j < 100; j++) {
                 if(dummyProducts[i].price <= maxPrice) {
                     filtered.push(dummyProducts[i]);
                 }

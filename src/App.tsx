@@ -3,7 +3,8 @@
 // import { Counter } from "./components/useStateHook/components/Counter";
 // import { Timer } from "./components/useEffectHook/components/Timer";
 // import SignupForm from "./components/useReducerHook/components/SignupForm";
-import ProductDashboard from "./components/useCallbackHook/components/ProductDashboard";
+// import ProductDashboard from "./components/useCallbackHook/components/ProductDashboard";
+import { PrimeChecker } from "./components/useMemoHook/components/PrimeChecker";
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Timer/> */}
       {/* <SignupForm/> */}
-      <ProductDashboard/>
+      {/* <ProductDashboard/> */}
+      <PrimeChecker/>
     </>
   )
 }
