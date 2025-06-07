@@ -7,7 +7,8 @@
 // import { PrimeChecker } from "./components/useMemoHook/components/PrimeChecker";
 // import UserDashboard from "./components/ReactMemoExample/components/UserDashboard"
 // import AutoFocusInput from "./components/useRefHook/components/AutoFocusInput"
-import PreviousCounter from "./components/useRefHook/components/PreviousCounter"
+// import PreviousCounter from "./components/useRefHook/components/PreviousCounter"
+import SimpleForm from "./components/useImperativeHandleHook/components/SimpleForm"
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <PrimeChecker/> */}
       {/* <UserDashboard/> */}
       {/* <AutoFocusInput/> */}
-      <PreviousCounter/>
+      {/* <PreviousCounter/> */}
+      <SimpleForm/>
     </>
   )
 }
