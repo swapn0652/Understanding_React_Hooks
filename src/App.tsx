@@ -5,7 +5,9 @@
 // import SignupForm from "./components/useReducerHook/components/SignupForm";
 // import ProductDashboard from "./components/useCallbackHook/components/ProductDashboard";
 // import { PrimeChecker } from "./components/useMemoHook/components/PrimeChecker";
-import UserDashboard from "./components/ReactMemoExample/components/UserDashboard"
+// import UserDashboard from "./components/ReactMemoExample/components/UserDashboard"
+// import AutoFocusInput from "./components/useRefHook/components/AutoFocusInput"
+import PreviousCounter from "./components/useRefHook/components/PreviousCounter"
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
       {/* <SignupForm/> */}
       {/* <ProductDashboard/> */}
       {/* <PrimeChecker/> */}
-      <UserDashboard/>
+      {/* <UserDashboard/> */}
+      {/* <AutoFocusInput/> */}
+      <PreviousCounter/>
     </>
   )
 }
