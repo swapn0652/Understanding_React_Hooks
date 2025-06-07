@@ -10,7 +10,7 @@
 // import PreviousCounter from "./components/useRefHook/components/PreviousCounter"
 // import SimpleForm from "./components/useImperativeHandleHook/components/SimpleForm"
 // import BoxWithSize from "./components/useLayoutEffectHook/components/BoxWithSize"
-
+import ThemeExample from "./components/useInsertionEffectHook/components/ThemeExample";
 
 function App() {
 
@@ -28,6 +28,7 @@ function App() {
       {/* <PreviousCounter/> */}
       {/* <SimpleForm/> */}
       {/* <BoxWithSize/> */}
+      <ThemeExample/>
     </>
   )
 }
