@@ -8,7 +8,8 @@
 // import UserDashboard from "./components/ReactMemoExample/components/UserDashboard"
 // import AutoFocusInput from "./components/useRefHook/components/AutoFocusInput"
 // import PreviousCounter from "./components/useRefHook/components/PreviousCounter"
-import SimpleForm from "./components/useImperativeHandleHook/components/SimpleForm"
+// import SimpleForm from "./components/useImperativeHandleHook/components/SimpleForm"
+// import BoxWithSize from "./components/useLayoutEffectHook/components/BoxWithSize"
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* <UserDashboard/> */}
       {/* <AutoFocusInput/> */}
       {/* <PreviousCounter/> */}
-      <SimpleForm/>
+      {/* <SimpleForm/> */}
+      {/* <BoxWithSize/> */}
     </>
   )
 }

@@ -1,7 +1,7 @@
 import { forwardRef, useImperativeHandle, useRef } from "react";
 import type { FancyInputHandle } from "../types";
 
-const FancyInput = forwardRef<FancyInputHandle, {}>((props, ref) => {
+const FancyInput = forwardRef<FancyInputHandle>((props, ref) => {
     const inputRef = useRef<HTMLInputElement>(null);
 
     useImperativeHandle(ref, () => ({
