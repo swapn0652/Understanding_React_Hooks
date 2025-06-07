@@ -11,7 +11,8 @@
 // import SimpleForm from "./components/useImperativeHandleHook/components/SimpleForm"
 // import BoxWithSize from "./components/useLayoutEffectHook/components/BoxWithSize"
 // import ThemeExample from "./components/useInsertionEffectHook/components/ThemeExample";
-import UserList from "./components/useTransitionHook/components/UserList";
+// import UserList from "./components/useTransitionHook/components/UserList";
+import UserListDeferred from "./components/useDeferredValueHook/components/UserListDeferred";
 
 function App() {
 
@@ -30,7 +31,8 @@ function App() {
       {/* <SimpleForm/> */}
       {/* <BoxWithSize/> */}
       {/* <ThemeExample/> */}
-      <UserList/>
+      {/* <UserList/> */}
+      <UserListDeferred/>
     </>
   )
 }
