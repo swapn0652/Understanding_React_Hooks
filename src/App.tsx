@@ -12,6 +12,7 @@
 // import BoxWithSize from "./components/useLayoutEffectHook/components/BoxWithSize"
 // import ThemeExample from "./components/useInsertionEffectHook/components/ThemeExample";
 // import UserList from "./components/useTransitionHook/components/UserList";
+import OnlineStatus from "./components/useDebugValueHook/components/OnlineStatus";
 import UserListDeferred from "./components/useDeferredValueHook/components/UserListDeferred";
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* <BoxWithSize/> */}
       {/* <ThemeExample/> */}
       {/* <UserList/> */}
-      <UserListDeferred/>
+      {/* <UserListDeferred/> */}
+      <OnlineStatus/>
     </>
   )
 }
